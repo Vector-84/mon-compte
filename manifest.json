@@ -1,7 +1,7 @@
 {
   "name": "Mon Compte",
   "short_name": "Compte",
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#007BFF",
   "theme_color": "#007BFF",
