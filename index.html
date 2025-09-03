@@ -8,6 +8,9 @@
   <link rel="preload" href="style.css" as="style" />
   <link rel="preload" href="script.js" as="script" />
   <link rel="prefetch" href="historique.html" />
+  <link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="manifest" href="manifest.json">
 </head>
 <body class="main">
     <section class="container">
@@ -42,5 +45,12 @@
     
 
   <script src="script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js')
+    .then(() => console.log('Service Worker enregistré !'))
+    .catch(err => console.log('Erreur Service Worker:', err));
+}
+  </script>
 </body>
 </html>
