@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Compte</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preload" href="style.css" as="style" />
+  <link rel="preload" href="script.js" as="script" />
+  <link rel="prefetch" href="historique.html" />
+</head>
+<body class="main">
+    <section class="container">
+      <div class="logo">
+  <div class="ecu"></div>
+</div>
+      <h1>Mon Compte</h1>
+      <div class="solde">
+        <span>Solde:</span>
+        <strong id="solde">0€</strong>
+      </div>
+      
+      <div class="formulaire">
+      <form id="formulaire">
+  <input type="number" id="montant" placeholder="Montant" />
+  <input type="text" id="description" placeholder="Correspondance (ex: essence)" />
+  <div class="boutons">
+    <button type="button" id="ajouter">Ajouter</button>
+    <button type="button" id="deduire">Déduire</button>
+    </div>
+    <div class="reset-container">
+    <button type="button" id="reset" class="reset">Réinitialiser le solde</button>
+    <a href="historique.html" class="btn-h">historique</a>
+  </div>
+</form>
+      </div>
+  
+      <footer>
+        &copy;-Vector-2025_Tout droits réservés_Vincent.Boutaïg-
+      </footer>
+      </section>
+    
+
+  <script src="script.js"></script>
+</body>
+</html>

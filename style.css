@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #336688;
+  color: white;
+  font-family: Montserrat, Sans-Serif;
+  letter-spacing: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  border: solid 3px white;
+  border-radius: 10px;
+  height: 95vh;
+  width: 90vw;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.solde {
+  margin-right: 90px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+#montant-ajout, #montant-retrait {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.formulaire {
+  margin-top: 20px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 40px;
+}
+
+#montant {
+  font-size: 1rem;
+}
+
+#description {
+  margin-top: 20px;
+}
+
+.boutons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#ajouter {
+  background-color: goldenrod;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  outline: none;
+  border: solid 2px white;
+}
+
+#deduire {
+  background-color: #882900;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: solid 2px white;
+}
+
+.reset-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15%;
+  justify-content: space-around;
+}
+
+.reset {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.btn-h {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  border: solid 2px black;
+  border-radius: 10px;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
+.switch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15%;
+}
+
+footer {
+  margin-top: auto;
+  font-size: 0.5rem;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  background-color: #336688; /* même bleu que ton app */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px; /* optionnel pour arrondir le fond */
+  margin-bottom: 20px;
+}
